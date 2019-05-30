@@ -31,7 +31,7 @@ const Repos = ({ currentLanguageRepos }) => {
                 {forks.toLocaleString()} forks
               </li>
               <li>
-                <FaExclamationTriangle color='crimson' size={22} />
+                <FaExclamationTriangle color='#007bff' size={22} />
                 {open_issues.toLocaleString()} questões
               </li>
             </ul>
